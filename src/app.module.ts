@@ -7,7 +7,7 @@ import { UsersModule } from './users/users.module';
 import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
-  imports: [UsersModule, MongooseModule.forRoot('mongodb://Cordoba-Js:mLabBD1234@ds111492.mlab.com:11492/backendchallenge')],
+  imports: [UsersModule, MongooseModule.forRoot('mongodb://Cordoba-Js:mLabBD1234@ds163382.mlab.com:63382/backend-homework')],
   controllers: [AppController, UsersController],
   providers: [AppService, UsersService],
 })
